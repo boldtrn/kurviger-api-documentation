@@ -4,6 +4,12 @@ Documentation of the motorcycle routing API of [Kurviger](https://kurviger.de/).
 
 In most parts, the Kurviger API is similar to the GraphHopper API, which is documented [here](https://github.com/graphhopper/graphhopper/blob/master/docs/web/api-doc.md). This documentation will thererfore only cover the differences. 
 
+If you are using the Kurviger API in your product, you need to make it clear that the service is provided by Kurviger. The attribution has to be shown on the same screen where you show the route - a user must have the possibility to read the attribution and click on the link. For example you can place the attribution on the map or an attached sidebar. Since Kurviger uses data from OpenStreetMap, you will have to show attribution for OpenStreetMap, as documented [here](https://www.openstreetmap.org/copyright). You can use this HTML for attributions:
+
+```
+Powered by <a href="https://kurviger.com">Kurviger</a>
+```
+
 **Note: this documentation contains all parameters that you are allowed to use when you have an active subscription. Kurviger contains some advanced options that are only allowed to use after receiving written permission.**
 
 ## Routing
